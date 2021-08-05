@@ -1,0 +1,113 @@
+.attribution { font-size: 18px; text-align: center; font-weight: bolder; margin-top: 2rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+html{
+    min-height: 100%;
+  }
+  @font-face {
+    font-family: face;
+    src: url("../font/spartan-v3-latin-regular.woff");
+  }
+ body{
+   font-family: face;
+   Font-size: 12px;
+   font-weight: 500;
+ }
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+  color: hsl(0, 0%, 100%)
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active:hover{
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: hsl(0, 0%, 100%)
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+}
+.navbar-light .navbar-brand{
+  color: hsl(0, 0%, 100%) !important
+}
+.navbar-light .navbar-toggler{
+  color: hsl(0, 0%, 100%) !important;
+}
+ .carousel-control-next{
+   position: absolute;
+   background-color: black;
+   left: 3.8rem;
+   height: 3rem;
+   top: 19.5rem;
+ }
+
+ .carousel-control-prev{
+  position: absolute;
+  background-color: black;
+  left: -0.7rem;
+  height: 3rem;
+  top: 19.5rem;
+  
+}
+
+ .show{display:none !important;}
+ .shop h2{
+   font-weight: bolder;
+ }
+
+ .shop p{
+  font-size: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  color: hsl(0, 0%, 63%);
+}
+.shop small{
+  font-size: 12px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+.shop small img{
+ padding-left: 1rem;
+}
+
+.about h4{
+  font-weight: bolder;
+}
+
+.anout p{
+ font-size: 12px;
+ margin-top: 1.5rem;
+ color:  hsl(0, 0%, 27%);
+}
+.image-hide{
+  display: none;
+}
+
+@media (max-width: 375px){
+  .image-hide{
+    display: flex !important;
+    width: 100%;
+  }
+  .hide{
+    display: none !important;
+  }
+  .show{
+    display: flex !important;
+  }
+  .carousel-control-next{
+    position: absolute;
+    background-color: black;
+    left: 19.2rem;
+    height: 3rem;
+    top: -6rem;
+  }
+ 
+  .carousel-control-prev{
+   position: absolute;
+   background-color: black;
+   left: 15.7rem;
+   height: 3rem;
+   top: -6rem;
+   
+ }
+}
